@@ -1,7 +1,7 @@
 class DevConf():
     DEBUG = True
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:<your_password>@localhost/<database_name>'
+    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://vladimir:280799@localhost/rating'
 
 
 class UserConf():
